@@ -8,11 +8,11 @@ jobs:
 
     services:
       postgres:
-        image: postgres:11
+        image: postgres:12
         env:
-          POSTGRES_DB: your_test_db_name
-          POSTGRES_USER: your_postgres_user
-          POSTGRES_PASSWORD: your_postgres_password
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: test_db
         ports:
           - 5432:5432
         # Set health checks to wait until postgres has started
