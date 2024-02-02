@@ -21,6 +21,8 @@ gem 'jbuilder'
 gem 'bootsnap', require: false
 gem 'redis', '>= 4.0.1'
 
+gem 'devise'
+
 # Security gems
 gem 'brakeman', require: false # Security scanner
 gem 'bundler-audit', require: false # Gem vulnerability checker
@@ -43,6 +45,7 @@ group :development do
   # gem "rack-mini-profiler"
   # gem "spring"
   gem 'rubocop', require: false # Code linting
+  gem 'annotate'
 end
 
 # Test group
