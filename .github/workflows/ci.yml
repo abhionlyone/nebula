@@ -39,11 +39,12 @@ jobs:
     - name: Set up Database
       env:
         PGHOST: localhost
-        PGUSER: your_postgres_user
-        PGPASSWORD: your_postgres_password
+        PGUSER: postgres
+        PGPASSWORD: postgres
         RAILS_ENV: test
       run: |
-        bin/rails db:create db:schema:load --trace
+        bin/rails db:create
+        bin/rails db:schema:load --trace
 
     - name: Run Tests
       env:
