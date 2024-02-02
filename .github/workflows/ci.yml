@@ -28,7 +28,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.3.0 # or the specific version you have in your project
+        ruby-version: 3.3.0 # Or the specific version you have in your project
 
     - name: Install Dependencies
       run: |
@@ -39,6 +39,7 @@ jobs:
     - name: Set up Database
       env:
         PGHOST: localhost
+        PGPORT: 5432
         PGUSER: postgres
         PGPASSWORD: postgres
         RAILS_ENV: test
