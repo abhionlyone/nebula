@@ -21,6 +21,7 @@ gem 'jbuilder'
 gem 'bootsnap', require: false
 gem 'redis', '>= 4.0.1'
 
+gem 'cssbundling-rails'
 gem 'devise'
 
 # Security gems
