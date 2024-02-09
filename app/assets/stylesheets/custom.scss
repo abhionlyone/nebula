@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RethinkSans';
+  src: url('RethinkSans-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'RethinkSans';
+  background-color: #f0f0f0;
+}
+
+.min-h-screen{
+  min-height: 78vh;
+}
