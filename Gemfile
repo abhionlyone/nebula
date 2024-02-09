@@ -31,7 +31,6 @@ gem 'rack-attack' # Protection against abusive clients
 
 # Performance gems
 gem 'bullet' # N+1 query detection
-gem 'rack-mini-profiler' # Detailed profiling
 
 # Development and test group
 group :development, :test do
