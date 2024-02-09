@@ -45,8 +45,8 @@ group :development do
   gem 'web-console' # Console on exceptions pages
   # gem "rack-mini-profiler"
   # gem "spring"
-  gem 'rubocop', require: false # Code linting
   gem 'annotate'
+  gem 'rubocop', require: false # Code linting
 end
 
 # Test group
